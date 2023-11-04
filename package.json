@@ -1,0 +1,13 @@
+{
+  "name": "bun-ts-hello",
+  "packageManager": "yarn@3.6.1",
+  
+  "module": "src/app.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
