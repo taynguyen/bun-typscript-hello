@@ -1,13 +1,22 @@
 {
   "name": "bun-ts-hello",
   "packageManager": "yarn@3.6.1",
-  
   "module": "src/app.ts",
   "type": "module",
+  "scripts": {
+    "dev": "bun run src/app.ts"
+  },
   "devDependencies": {
+    "@strapi/strapi": "^5.16.0",
     "bun-types": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.699.0",
+    "@mendable/firecrawl-js": "^1.21.1",
+    "express": "^4.21.1",
+    "firebase-admin": "^12.0.0"
   }
 }
